@@ -27,3 +27,15 @@ config proxy
 	option use_compression '1'
 	option remark 'op'
 
+config proxy
+	option enable '1'
+	option type 'http'
+	option domain_type 'subdomain'
+	option subdomain 'nas'
+	option local_ip '192.168.3.230'
+	option local_port '5000'
+	option proxy_protocol_version 'disable'
+	option use_encryption '1'
+	option use_compression '1'
+	option remark 'nas'
+
