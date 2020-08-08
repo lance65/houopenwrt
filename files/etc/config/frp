@@ -32,7 +32,7 @@ config proxy
 	option type 'http'
 	option domain_type 'subdomain'
 	option subdomain 'nas'
-	option local_ip '192.168.3.230'
+	option local_ip '192.168.3.172'
 	option local_port '5000'
 	option proxy_protocol_version 'disable'
 	option use_encryption '1'
